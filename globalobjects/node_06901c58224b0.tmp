@@ -1,0 +1,13 @@
+
+console.log(__filename);
+
+console.log(__dirname);
+
+function hello(){
+
+    console.log("Hello >>>");
+}
+
+setTimeout(hello, 5000);
+
+setInterval(hello, 2000);
